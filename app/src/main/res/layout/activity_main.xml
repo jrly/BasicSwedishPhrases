@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jimmy.basicswedishphrases.MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:columnCount="2"
+        android:paddingBottom="10dp"
+        android:rowCount="7"
+        android:id="@+id/gridLayout2">
+
+        <Button
+            android:id="@+id/hello"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="start"
+            android:layout_row="0"
+            android:onClick="buttonTapped"
+            android:text="@string/hello" />
+
+        <Button
+            android:id="@+id/howareyou"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_row="0"
+            android:onClick="buttonTapped"
+            android:text="@string/how_are_you" />
+
+        <Button
+            android:id="@+id/name"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="start"
+            android:layout_row="1"
+            android:onClick="buttonTapped"
+            android:text="@string/what_is_your_name" />
+
+        <Button
+            android:id="@+id/pleasedtomeetyou"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_row="1"
+            android:onClick="buttonTapped"
+            android:text="@string/pleased_to_meet_you" />
+
+        <Button
+            android:id="@+id/mynameis"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="start"
+            android:layout_row="2"
+            android:onClick="buttonTapped"
+            android:text="@string/my_name_is" />
+
+        <Button
+            android:id="@+id/goodbye"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_row="2"
+            android:onClick="buttonTapped"
+            android:text="@string/goodbye" />
+
+        <Button
+            android:id="@+id/goodmorning"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="start"
+            android:layout_row="3"
+            android:onClick="buttonTapped"
+            android:text="@string/goodmorning" />
+
+        <Button
+            android:id="@+id/goodevening"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_row="3"
+            android:onClick="buttonTapped"
+            android:text="@string/goodevening" />
+
+        <Button
+            android:id="@+id/excuseme"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="start"
+            android:layout_row="4"
+            android:onClick="buttonTapped"
+            android:text="@string/excuseme" />
+
+        <Button
+            android:id="@+id/idontunderstand"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_row="4"
+            android:onClick="buttonTapped"
+            android:text="@string/i_don_t_understand" />
+
+        <Button
+            android:id="@+id/whereisthetoilet"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="top|start"
+            android:layout_row="5"
+            android:onClick="buttonTapped"
+            android:text="@string/where_is_the_toilet"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/thanks"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_row="5"
+            android:onClick="buttonTapped"
+            android:text="@string/thanks" />
+
+        <Button
+            android:id="@+id/haveaniceday"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="start"
+            android:layout_row="6"
+            android:onClick="buttonTapped"
+            android:text="@string/have_a_nice_day" />
+
+        <Button
+            android:id="@+id/sorry"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_row="6"
+            android:onClick="buttonTapped"
+            android:text="@string/sorry" />
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/swedish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/swedish2"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/swedish"
+        tools:ignore="DuplicateIds" />
+    <ImageView
+        android:id="@+id/swedish2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/swedish"
+        android:layout_marginStart="26dp"
+        android:layout_below="@+id/gridLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+</android.widget.RelativeLayout>

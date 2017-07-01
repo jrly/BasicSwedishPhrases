@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Basic Swedish Phrases</string>
+    <string name="hello">Hello</string>
+    <string name="goodbye">Goodbye</string>
+    <string name="goodevening">Goodevening</string>
+    <string name="goodmorning">Goodmorning</string>
+    <string name="how_are_you">How are you?</string>
+    <string name="my_name_is">My name is</string>
+    <string name="pleased_to_meet_you">Pleased to meet you</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="i_don_t_understand">I don\'t understand</string>
+    <string name="thanks">Thanks</string>
+    <string name="where_is_the_toilet">Where is the toilet?</string>
+    <string name="excuseme">excuseme</string>
+    <string name="have_a_nice_day">Have a nice day</string>
+    <string name="sorry">Sorry</string>
+</resources>
